@@ -1,0 +1,14 @@
+/**
+ *
+ * @author	Hj Ahmad Rasyid Hj Ismail "ahrasis"
+ * @email	ahrasis@gmail.com
+ * @link	https://sahabat.ahrasis.com
+ * @license	BSD http://opensource.org/licenses/BSD-3-Clause
+ * @addon	HLBM: Highlight Buddy Message
+ *
+ */ 
+
+#forumposts .buddybg
+{
+	background: lightcyan;
+}

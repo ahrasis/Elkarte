@@ -1,0 +1,83 @@
+.poster .membergroup {
+display:none;
+}
+#forumtitle > a, .board_name > a, .topic_name h4 a,
+a, a:link, a:visited, a.new_win:link, a.new_win:visited {
+	 color: #3b5998;
+	 text-decoration: none;
+}
+#forumtitle > a:hover, .board_name > a:hover, .topic_name h4 a:hover,
+a:hover, a.new_win:hover {
+	 color: #080;
+	 text-decoration: underline;
+}
+html {
+	background: #293e6a;
+}
+#top_section #menu_nav {
+	min-height: 38px;
+	background: #3b5998;
+	background-image: none;
+	box-shadow: 0px 1px 1px #fff;
+}
+#wrapper .wrapper, #header .wrapper {
+	 width: 100%;
+}
+#wrapper {
+	 margin-top: 2.4em;
+	 background: #fff;
+	 border: 0;
+	 box-shadow: 0 0 5px 0 rgba(0,0,0,0.6);
+	 border-radius: 5px;
+}
+#posting_icons {
+	 margin: 1em 0;
+}
+#footer_section {
+	 border-top: 1px solid #eee;
+	 background-color: #293e6a;
+	 color: #fff;
+}
+#footer_section p {
+	 font-size: 8px;
+}
+#main_menu .linklevel1, #main_menu .linklevel1:link, #main_menu .linklevel1:visited {
+	color: #fff;
+	font-size: 1em;
+	line-height: 2em;
+	text-shadow: 1px 1px 1px #000;
+}
+#main_menu .linklevel1.active, #main_menu .listlevel1:hover .active,
+#main_menu .active, #main_menu .linklevel1:hover, #main_menu .listlevel1:hover .linklevel1, #main_menu .linklevel1:focus {
+	 background: #344e86;
+	 box-shadow: 0 0 5px 0 rgba(0,0,0,0.6);
+	 border-radius: 2px;
+}
+#menu_nav .listlevel1.subsections>a:before {
+	 margin: 0;
+	 float: none;
+	 font-size: 0;
+	 content: none;
+	 color: none;
+}
+.forumposts:nth-of-type(even),
+.forumposts:nth-of-type(odd) {
+	background: #fff;
+}
+@media screen and (max-width: 50em) {
+  .icon-menu {
+		border: none;
+  }
+  .i-comments-blank::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 36 32'%3E%3Cpath d='M15 4c-1.583 0-3.112.248-4.543.738-1.34.46-2.535 1.107-3.547 1.926C5.034 8.182 4 10.127 4 12.138c0 1.125.315 2.217.935 3.247.646 1.073 1.622 2.056 2.82 2.842.952.624 1.593 1.623 1.762 2.748.028.187.05.375.068.564.085-.08.17-.16.254-.25.75-.75 1.77-1.17 2.82-1.17.16 0 .33.01.5.03.6.08 1.22.112 1.83.112 1.58 0 3.11-.248 4.54-.738 1.34-.46 2.535-1.11 3.547-1.928 1.88-1.516 2.91-3.46 2.91-5.47s-1.03-3.958-2.91-5.476c-1.01-.82-2.205-1.464-3.546-1.923C18.115 4.25 16.585 4 15 4zm0-4c8.284 0 15 5.435 15 12.14s-6.716 12.138-15 12.138c-.796 0-1.576-.05-2.34-.147C9.44 27.34 5.72 27.92 2 28v-.785c2.008-.98 3.625-2.765 3.625-4.804 0-.28-.022-.56-.063-.83C2.17 19.35 0 15.95 0 12.14 0 5.436 6.716 0 15 0zm16.125 27.21c0 1.747 1.135 3.277 2.875 4.117V32c-3.223-.072-6.18-.566-8.973-3.316-.66.083-1.337.126-2.027.126-2.983 0-5.732-.805-7.925-2.157 4.52-.016 8.79-1.464 12.026-4.084 1.64-1.32 2.92-2.87 3.83-4.61.96-1.84 1.45-3.8 1.45-5.83 0-.33-.01-.65-.04-.98 2.27 1.88 3.66 4.43 3.66 7.246 0 3.265-1.88 6.18-4.82 8.086-.03.24-.05.48-.05.72z'/%3E%3C/svg%3E");
+  }
+
+  .i-comments::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 36 32'%3E%3Cpath d='M15 0c8.284 0 15 5.435 15 12.14s-6.716 12.138-15 12.138c-.796 0-1.576-.05-2.34-.147C9.44 27.34 5.72 27.918 2 28v-.785c2.008-.98 3.625-2.765 3.625-4.804 0-.283-.022-.562-.063-.835C2.17 19.35 0 15.95 0 12.14 0 5.436 6.716 0 15 0zm16.125 27.21c0 1.747 1.135 3.277 2.875 4.117V32c-3.223-.072-6.18-.566-8.973-3.316-.66.083-1.337.126-2.027.126-2.983 0-5.732-.805-7.925-2.157 4.52-.016 8.79-1.464 12.026-4.084 1.633-1.32 2.92-2.87 3.827-4.607.96-1.84 1.45-3.8 1.45-5.825 0-.327-.015-.652-.04-.975C34.604 13.038 36 15.59 36 18.405c0 3.265-1.88 6.18-4.82 8.086-.036.236-.055.476-.055.72z'/%3E%3C/svg%3E");
+  }
+}
+@media screen and (max-width: 30em) {
+  #forumtitle {
+		font-size: 1.357em;
+  }
+}

@@ -1,0 +1,55 @@
+/**
+ *
+ * @author	Hj Ahmad Rasyid Hj Ismail "ahrasis"
+ * @email	ahrasis@gmail.com
+ * @link	https://sahabat.ahrasis.com
+ * @license	BSD http://opensource.org/licenses/BSD-3-Clause
+ * @addon	Masa: Surfer's Local Live Time
+ *
+ */
+
+#butang {
+	margin-top: 11px;
+	padding: 5px 5px 3px;
+	float: left;
+	font-size: 0.9em;
+}
+.masa {
+    border: 1px solid #AFAFAF;
+    border-top-color: #CFCFCF;
+    border-left-color: #BFBFBF;
+    border-radius: 0.125em;
+    background: #F4F4F4;
+    background-image: linear-gradient(to bottom, #FEFEFE, #E4E4E4);
+    box-shadow: 1px 1px 2px #E5E5E5, 0 -1px 0 #E5E5E5 inset;
+
+}
+@media screen and (max-width: 33.75em) {
+	#butang {
+		margin-top: 4px;
+		float: right;
+	}
+	#search_form {
+		text-align: left !important;
+		width: 75%;
+		float: left;
+		border-bottom: none;
+	}
+	#search_form .button_submit {
+		position: absolute;
+		left: -9999px;
+	}
+	#search_form .input_text {
+		background: url(../images/filter.png) no-repeat 2px 4px #fff;
+		padding-left: 1.6em;
+		border: 1px solid #7f9db9;
+		width: 50%;
+		border-radius: 3px;
+		transition: width 2s ease-in-out;
+	}
+	#search_form .input_text:hover {
+		border: 1px solid #eaeaea;
+		width: 100%;
+		max-width: 100%;
+	}
+}

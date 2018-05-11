@@ -1,0 +1,12 @@
+/**
+ *
+ * @author	ahrasis http://support.ahrasis.com
+ * @license	BSD http://opensource.org/licenses/BSD-3-Clause
+ * @addon		FFAHM: Fully Friendly Admin Highlighter Mod
+ *
+ */
+
+#admin_content tr:hover td
+{
+	background:lightcyan;
+}

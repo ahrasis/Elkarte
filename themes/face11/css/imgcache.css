@@ -1,0 +1,17 @@
+.cached_img {
+	display: inline-block;
+}
+
+.cached_img .external {
+	float: left;
+	text-align: center;
+}
+
+.cached_img .infobox {
+	background-image: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}

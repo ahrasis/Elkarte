@@ -1,0 +1,43 @@
+.forum_category .category_header {display:none;}
+.forum_category {margin-bottom:0;}
+/*
+@media screen and (max-width: 50em) {
+
+	ul.navigate_section li:not(:first-child):not(:last-child) a {
+		overflow: visible;
+	}
+	.linktree, .linktree:after {
+		float: none;
+		display: block;
+		padding: 0;
+		border: none;
+		box-shadow: none;
+	}
+	.linktree:not(:first-child) {
+		margin: 5px 0 0;
+	}
+	.linktree:first-child a {
+		height: 2em;
+		padding: 0 2px;
+	}
+	.linktree, .linktree:last-child, .linktree:last-child a, .linktree:last-child>spa, .linktree:nth-child {
+		width: 100%;
+		max-width: 100%;
+	}
+	.linktree:nth-child(2):before {
+		content: "\00a0 \00a0 -> \00a0";
+		float: left;
+	}
+	.linktree:nth-child(3):before {
+		content: "\00a0 \00a0 ---> \00a0";
+		float: left;
+	}
+	.linktree:nth-child(4):before {
+		content: "\00a0 \00a0 -----> \00a0";
+		float: left;
+	}
+	.linktree:nth-child(5):before {
+		content: "\00a0 \00a0 -------> \00a0";
+		float: left;
+	}
+} */

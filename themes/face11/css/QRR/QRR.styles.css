@@ -1,0 +1,30 @@
+/**
+ *
+ * @author	Hj Ahmad Rasyid Hj Ismail "ahrasis"
+ * @email	ahrasis@gmail.com
+ * @link	https://sahabat.ahrasis.com
+ * @license	BSD http://opensource.org/licenses/BSD-3-Clause
+ * @addon	QRR: Quick Reply Reposition
+ *
+ */
+
+.forumposts {
+	margin-top: 0;
+}
+.forumposts textarea {
+	width:100%;
+}
+#quickreplybox, #quickReplyOptions.windowbg,
+#quickReplyOptions.windowbg2 {
+	border:none;border-radius:0;box-shadow:none;margin:0;background:none;clear:none;
+}
+#quickReplyOptions.windowbg,
+#quickReplyOptions.windowbg2 {
+	padding:0;
+}
+#quickReplyOptions p.alert {
+	text-align:right;
+}
+#quickReplyOptions .sceditor-toolbar, #quickReplyOptions textarea, #quickReplyOptions .sceditor-grip{
+	background:#fff;
+}

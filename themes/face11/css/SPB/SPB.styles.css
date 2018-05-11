@@ -1,0 +1,50 @@
+/**
+ *
+ * @author	ahrasis http://support.ahrasis.com
+ * @license	BSD http://opensource.org/licenses/BSD-3-Clause
+ * @addon	SPB: Smart PostBit
+ *
+ */
+
+@media screen and (min-width: 33.8em) {
+	#quickReplyOptions form .quickreply
+	{
+		margin-right: 0;
+		min-width: 99.5%;
+		max-width: 99.5%;
+	}
+	ul.poster
+	{
+		border: 3px solid #eee;
+		border-radius: 7px;
+		margin: 0 1em;
+		padding: 0.5em;
+	}
+	ul.poster li.listlevel1
+	{
+		text-align: center;
+		padding: 0.3em;
+		margin: 0 0 0.2em;
+		border: 1px solid lightblue;
+		border-radius: 4px;
+	}
+	ul.poster li.listlevel1:hover
+	{
+		background: #fff;
+		border: 1px solid lime;
+	}
+}
+
+@media screen and (min-width: 33.8em) and (max-width: 50em) {
+	.avatarresize
+	{
+		max-width: 4em;
+		max-height: 4em;	
+	}
+	#quickReplyOptions form .quickreply
+	{
+		margin-right: 0;
+		min-width: 99%;
+		max-width: 99%;
+	}
+}

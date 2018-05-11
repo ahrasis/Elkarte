@@ -1,0 +1,15 @@
+/**
+ *
+ * @author	Hj Ahmad Rasyid Hj Ismail "ahrasis"
+ * @email	ahrasis@gmail.com
+ * @link	https://sahabat.ahrasis.com
+ * @license	BSD http://opensource.org/licenses/BSD-3-Clause
+ * @addon	Masa: Surfer's Local Live Time
+ *
+ */
+
+@media screen and (max-width: 33.75em) {
+	.date_mobile_hide {
+		display:none;
+	}
+}

@@ -1,0 +1,30 @@
+/**
+ *
+ * @author	Hj Ahmad Rasyid Hj Ismail "ahrasis"
+ * @email	ahrasis@gmail.com
+ * @link	https://sahabat.ahrasis.com
+ * @license	BSD http://opensource.org/licenses/BSD-3-Clause
+ * @addon	BOLA: Blur OffLine Avatar
+ *
+ */
+
+@media screen and (max-width: 50em) {
+	.blur_avatars {
+		opacity: 0.4;
+		filter: alpha(opacity=40);
+		-webkit-filter: grayscale(100%);
+		   -moz-filter: grayscale(100%);
+			 -o-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+				filter: grayscale(100%); 
+	}
+}
+.blur_avatars_all {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	-webkit-filter: grayscale(100%);
+	   -moz-filter: grayscale(100%);
+		 -o-filter: grayscale(100%);
+		-ms-filter: grayscale(100%);
+			filter: grayscale(100%); 
+}
